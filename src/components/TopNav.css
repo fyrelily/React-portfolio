@@ -1,0 +1,14 @@
+.menu-button{
+    position:fixed;
+    font-size:2.75rem;
+    top:20px;
+    right: 50px;
+    background: none;
+    border:transparent;
+    z-index: 15 !important;
+}
+
+/* .menu-button:hover {
+    background-color: black;
+    color: white;
+} */

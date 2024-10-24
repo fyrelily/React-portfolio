@@ -1,6 +1,6 @@
 .hero-container {
     display: flex;
-    background-color: #1fcecb;
+    background-color: #D8FDFE;
     height: 100vh;
     margin: 0 auto;
     max-width: 100vw;
@@ -12,7 +12,7 @@
 .hero-greeting {
     height: 100%;
     flex-grow:8;
-    flex-basis: 60vw;
+    flex-basis: 50vw;
 }
 
 .greeting-container {
@@ -24,24 +24,42 @@
     
 }
 
+.greeting-item, .details-item{
+    position:relative;
+    width: 700px;
+    height: 50%;   
+}
+
+
+
 .h1-greeting, .h2-details{
-    width: 500px;
+    width: 700px;
+    left:18%;
     flex: 0 0 auto
 }
 
 .h1-greeting{
+    line-height: 1.15;
+    position: absolute;
+    bottom:0;
+    display: block;
     font-family: "Dekko", cursive;
+    font-size: 4.0rem;
+    font-weight: 400;
 }
 
 .h2-details{
+    position: absolute;
     font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
 }
 
 
 .hero-avatar {
     height:100%;
     flex-grow:2;
-    flex-basis:40vw;
+    flex-basis:50vw;
 }
 
 .avatar-container {
@@ -53,63 +71,66 @@
 
 .avatar-img{
     border:1px solid gray;
-    width:90%;
+    width:80%;
     border-radius: 50%;
 }
 
-
-@media (max-width: 700px) {
+/*Samsung tablet portrait*/
+@media (max-width: 800px) {
 
     .hero-container {
-        display: flex;
         flex-direction: column;
-        background-color: #1fcecb;
-        max-height: 100vh;
-        margin: 0 auto;
-        max-width: 100vw;
-        padding: 0 2.5vw;
-        /* align-items: center; */
-    
     }
-    
-    
+      
     .greeting-container {
-        max-width: 650px;
-        display: flex;
-        text-align: left;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
+        margin-top: 4rem;
+        text-align: center;
+        border: 2px solid green;
+        max-height: 30%;
+        width: 100%;
     }
-    
-    .h1-greeting, .h2-details{
-        flex: 0 0 auto
-    }
-    
+
     .h1-greeting{
         justify-self: center;
-        font-family: "Dekko", cursive;
-        font-size: 28pt;
+        font-size: 32pt;
     }
 
     .h2-details{
-        font-family: "Roboto", sans-serif;
-        font-size: 16pt;
+        font-size: 20pt;
+    }
+   
+
+    @media (max-width: 425px) {
+        .hero-container {
+            display: flex;
+            background-color: pink;
+            max-height:740px;
+            margin: 0 auto;
+            padding: 0 2.5vw;
+            align-items: center;
+        
+        }
+          
+        .greeting-container { 
+            width: 100%;
+            max-width: 400px;
+        
+        }
+    
+        .h1-greeting{
+            justify-self: center;
+            font-size: 22pt;
+        }
+    
+        .h2-details{
+            font-size: 14pt;
+            max-width: 350px;
+        
+        }
+    
     }
 
-    
-    .avatar-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    
-    .avatar-img{
-        border:1px solid gray;
-        width:90%;
-        border-radius: 50%;
-    }
- 
+
 }
+
+

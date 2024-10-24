@@ -1,0 +1,25 @@
+.menu-wrapper{
+position: fixed;
+top:0;
+right: 0;
+bottom: 0;
+left:0;
+padding: 100px;
+background-color: var(--purp);
+z-index: -1; 
+}
+
+.menu-wrapper a{
+    display: block;
+    text-align: left;
+    font-size: 4rem;
+    color: #efefef;
+    text-decoration: none;
+    transition: 0.3s ease border;
+    line-height: 1.5;
+    border-bottom: 4px solid transparent;
+}
+
+.menu-wrapper a:hover{
+    border-bottom: 4px solid #DC889C;
+}
