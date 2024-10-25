@@ -3,27 +3,25 @@ import "./Projects.css"
 
 function Projects() {
   return (
-    <div className='container-100vh-100vw'>
+    <div className='container-100vh-100vw' style={{position:'relative',zIndex:1, }} >
 
-      <div className='project-preview'>
-        
-        <div className='row'>
-          <div className='previw-item project1'></div>
-          <div className=' previw-item project2'></div>
-        </div>
 
-        <div className='row'>
-        <div className='previw-item project3'></div>
-        <div className='previw-item project4'></div>
-        </div>
-      
+      <div className='flex-column flexbasis-50vw'>
+        <h1 id="projects" className='title-box '>Projects</h1>
+        <img className='STEM-img' src="./images/STEM-mockup.png" />
+          <div className='bg-decor'></div>
       </div>
 
-      <div className='project-details'>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+        <div className='flex-column flexbasis-40vw project-details'>
+          <h2 className='project-name'>Chemistry Tutoring Web App</h2>
+          <p className='project-desc'>Elevate your chemistry studies with our innovative web app. Designed to empower students of all levels, our platform offers access to a professional chemistry tutor and comprehensive interactive quizzes to solidify your understanding of fundamental chemistry concepts.</p>
+        </div>
+
+
+
+
+
+
 
 
     </div>

@@ -6,25 +6,21 @@
 
     }
 
-.STEM-img{
-    transform: translate3d(-9%,0,0);
-    width:115%;
-    margin: 0;
+.about-img{
+    border-radius: 50%;
+    align-self: center;
+    width:80%;
 
 }
 
-.bg-decor{
+.about-decor{
     position: absolute;
     border-radius: 60px;
-    top:18%;
-    left:10vw;
+    top:19%;
+    left:14%;
     background-color: cornsilk;
-    width:73.5%;
-    height:65%;
-    /* min-width: 905px;
-    max-width: 1215px;
-    min-height:375px;
-    max-height: 500px; */
+    width:72%;
+    height:64%;
     z-index: -1;
 }
 
