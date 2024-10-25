@@ -7,22 +7,15 @@ function Hero() {
   return (
     
     
-    <div id="home" className='hero-container'>
+    <div id="home" className='container-100vh-100vw'>
 
-      <div className='hero-greeting greeting-container'>
-     
-          <div className='greeting-item'>
-          <h1 className='h1-greeting'>Welcome!
-            <br/> I'm Katie Lundell.</h1>
-          </div>
-          
-          <div className='details-item'>
-          <h2 className='h2-details'>Full Stack Developer,
-            <br /> Computational Chemist, <br /> & Enthusiast of STEM Web Apps</h2>
-          </div>
+      <div className='flexbasis-60vw flex-column'>
+            <h1 className='h1-greeting'>Welcome! I'm Katie Lundell.</h1>
+            <h2 className='h2-details'>Full Stack Developer,
+             Computational Chemist, & Enthusiast of STEM Web Apps</h2>
       </div>
 
-      <div className='hero-avatar avatar-container'>    
+      <div className='flexbasis-40vw  flex-row-centered'>    
             <img className='avatar-img' src="./images/avatar.png"/>
       </div>
 
