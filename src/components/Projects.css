@@ -1,0 +1,29 @@
+.projects-container {
+    display: flex;
+    background-color: #D8FDFE;
+    height: 90vh;
+    margin: 0 auto;
+    max-width: 100vw;
+    padding: 0 2.5vw;
+    border: 1px solid black;
+
+}
+
+.project-preview,
+.project-details {
+    height: 100%;
+}
+
+.project-preview {
+    border: 2px solid red;
+    /* width: 750px;
+    margin-left: 10%;*/
+
+} 
+
+.project-details {
+    border: 2px dotted var(--purp);
+    width: 550px;
+    /* margin-right: 55px;
+    margin-left: 7%; */
+}

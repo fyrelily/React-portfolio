@@ -7,7 +7,7 @@ function Hero() {
   return (
     
     
-    <div className='hero-container'>
+    <div id="home" className='hero-container'>
 
       <div className='hero-greeting greeting-container'>
      

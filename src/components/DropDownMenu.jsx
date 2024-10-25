@@ -7,7 +7,7 @@ function DropDownMenu(props) {
   return (
     <animated.div style={props.style}
       className="menu-wrapper">
-                <a href="#">Home</a>
+                <a href="home">Home</a>
                 <a href="#">Projects</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
