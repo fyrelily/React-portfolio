@@ -89,6 +89,12 @@ html, body {
 }
 
 
+.flexbasis-30vw {
+  height: 100%;
+  flex-basis: 40vw;
+}
+
+
 .flex-row-centered {
   display: flex;
   justify-content: center;
