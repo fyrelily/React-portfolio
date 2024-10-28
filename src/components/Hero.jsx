@@ -7,7 +7,7 @@ function Hero() {
   return (
     
     
-    <div id="home" className='container-100vh-100vw'>
+    <div id="home" className='hero-container'>
 
       <div className='flexbasis-60vw flex-column'>
             <h1 className='h1-greeting'>Welcome! I'm Katie Lundell.</h1>

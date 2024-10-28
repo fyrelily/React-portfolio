@@ -5,12 +5,12 @@
     align-items: flex-start;
   }
 
-  .contact-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    /* align-items: center; */
-  }
+  .contact-desc{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
 
 .contact-decor{
         position: absolute;
@@ -20,9 +20,39 @@
         background-color: cornsilk;
         width:73.5%;
         height:33%;
-        /* min-width: 905px;
-        max-width: 1215px;
-        min-height:375px;
-        max-height: 500px; */
         z-index: -1;
+}
+
+.contact-column{
+  /* transform: translate3d(0,20%,0); */
+  margin-left: 6%;
+  height: 60%;
+  
+
+}
+
+/* Samsung tablet portrait */
+@media (max-width: 800px) {
+  .contact-column {
+  transform: translate3d(0,-40%,0);
+  }
+
+  .contact-decor{
+    height:20%;
+
+}
+
+
+
+@media (max-width: 425px) {
+  .contact-column {
+    transform: translate3d(0,-52%,0);
+    }
+
+    .contact-column a{
+      margin-top: 4%;
+    }
+}
+
+
 }

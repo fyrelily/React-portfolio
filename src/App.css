@@ -89,7 +89,7 @@ html, body {
 
 .flexbasis-50vw {
   height: 100%;
-  flex-basis: 40vw;
+  flex-basis: 50vw;
 }
 
 
@@ -120,7 +120,7 @@ html, body {
   width: 100%
 }
 
-.flex-column {
+.flex-column, .project-flex-column, .about-flex-column, .contact-column{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -170,4 +170,78 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+
+/* Samsung tablet portrait */
+@media (max-width: 800px) {
+
+      .container-100vh-100vw {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .flex-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .title-box{
+      font-family: "Dekko", cursive;
+      font-size: 3.3vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position:absolute;
+      margin: 0;
+      color:#efefef;
+      border-radius: 15px;
+      top: 8%;
+      left: 10vw;
+      width: 25%;
+      height:6%;
+      background-color: var(--purp);
+    }
+    
+    .logo{
+      height: 5vw;
+      object-fit: contain;
+    
+    }
+    
+    .logo-name{
+      margin-top: 0;
+      font-family: "Dekko", cursive;
+    }
+    
+    
+    .logo-container {
+      display: inline-flex;
+      position:absolute;
+      flex-direction: column;
+      justify-content: flex-start ;
+      align-items: center;
+      bottom: 0 
+    }
+
+    .flexbasis-50vw {
+      height: 50vh;
+      flex-basis: 50vw;
+    }
+
+    .flexbasis-40vw {
+      height: 50vh;
+      flex-basis: 40vw;
+    }
+
+
+    @media (max-width: 425px) {
+      .title-box{
+        font-size: 4vw;
+        width:29%
+      }
+    }
+
+
 }

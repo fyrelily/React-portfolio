@@ -23,3 +23,30 @@ z-index: -1;
 .menu-wrapper a:hover{
     border-bottom: 4px solid #DC889C;
 }
+
+@media (max-width: 800px) {
+
+    .menu-wrapper{
+        border: 1px solid #DC889C;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: baseline;
+    
+    }
+
+    .menu-wrapper a{
+        font-size: 10vw;
+    }
+    
+
+  @media (max-width: 425px) {
+ 
+    .menu-wrapper a{
+        font-size: 10vw;
+    }
+
+}
+
+
+}

@@ -8,3 +8,12 @@
     align-items: flex-start;
 
 }
+
+@media (max-width: 800px) {
+
+    .toolkit-row {
+        width:80%; 
+    }
+
+
+}

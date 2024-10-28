@@ -12,3 +12,15 @@
     background-color: black;
     color: white;
 } */
+
+@media (max-width: 800px) {
+
+     }
+
+  @media (max-width: 425px) {
+    .menu-button{
+        font-size: 7vw;
+        right: 25px;
+    }
+
+}

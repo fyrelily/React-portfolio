@@ -32,5 +32,40 @@
     z-index: -1;
 }
 
+/* Samsung tablet portrait */
+@media (max-width: 800px) {
 
+    .about-flex-column{
+        align-items: flex-start;
 
+    }
+
+    .about-desc{
+        width: 70%;
+        margin-left: 8%;
+        /* align-self: center; */
+        font-size: 2.2vw;
+    }
+
+    .about-img{
+        transform: translate3d(-7%,-18%,0);
+        border-radius: 25px;
+        width:50%;
+    
+    }
+
+  @media (max-width: 425px) {
+
+    .about-img{
+        transform: translate3d(-7%,0,0);
+        width:50%;
+    
+    }
+
+    .about-desc{
+        margin-bottom: 0;
+        font-size: 3vw;
+    }
+  }
+
+}

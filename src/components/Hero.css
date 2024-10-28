@@ -1,17 +1,26 @@
+.hero-container {
+    display: flex;
+    background-color: #D8FDFE;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 100vw;
+    padding: 0 10vw 0 10vw;
+    align-items: center;
+}
 
-
-.h1-greeting, .h2-details{
+.h1-greeting,
+.h2-details {
     text-align: left;
 }
 
-.h1-greeting{
+.h1-greeting {
     line-height: 1.15;
     font-family: "Dekko", cursive;
     font-size: 4vw;
     font-weight: 400;
 }
 
-.h2-details{
+.h2-details {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 2vw;
@@ -19,68 +28,27 @@
 
 
 
-.avatar-img{
-    border:1px solid gray;
-    width:80%;
+.avatar-img {
+    border: 1px solid gray;
+    width: 80%;
     border-radius: 50%;
 }
 
-/*Samsung tablet portrait*/
-/* @media (max-width: 800px) {
 
+@media (max-width: 800px) {
     .hero-container {
         flex-direction: column;
-    }
-      
-    .greeting-container {
-        margin-top: 4rem;
-        text-align: center;
-        border: 2px solid green;
-        max-height: 30%;
-        width: 100%;
+        align-items: center;
     }
 
-    .h1-greeting{
+    .h1-greeting {
         justify-self: center;
-        font-size: 32pt;
+        font-size: 6vw;
     }
 
-    .h2-details{
-        font-size: 20pt;
-    }
-   
-
-    @media (max-width: 425px) {
-        .hero-container {
-            display: flex;
-            background-color: pink;
-            max-height:740px;
-            margin: 0 auto;
-            padding: 0 2.5vw;
-            align-items: center;
-        
-        }
-          
-        .greeting-container { 
-            width: 100%;
-            max-width: 400px;
-        
-        }
-    
-        .h1-greeting{
-            justify-self: center;
-            font-size: 22pt;
-        }
-    
-        .h2-details{
-            font-size: 14pt;
-            max-width: 350px;
-        
-        }
-    
+    .h2-details {
+        font-size: 3vw;
     }
 
 
-} */
-
-
+}

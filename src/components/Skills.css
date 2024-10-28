@@ -1,0 +1,16 @@
+@media (max-width: 800px) {
+
+    .skills-container {
+        margin: 0 5%;
+        font-size: 4vw;  
+    }
+
+
+  @media (max-width: 425px) {
+
+    .skills-container {
+        margin: 0 4%;
+        font-size: 4.25vw;  
+    }
+  }
+}
