@@ -67,6 +67,16 @@ html, body {
   align-items: center;
 }
 
+.container-75vh-100vw {
+  display: flex;
+  background-color: #D8FDFE;
+  height: 75vh;
+  margin: 0 auto;
+  max-width: 100vw;
+  padding: 0 10vw 0 10vw; 
+  align-items: center;
+}
+
 .flexbasis-70vw {
   height: 100%;
   flex-basis: 70vw;
@@ -132,4 +142,32 @@ html, body {
   width: 15%;
   height:8%;
   background-color: var(--purp);
+}
+
+.logo{
+  height: 5vw;
+  object-fit: contain;
+
+}
+
+.logo-name{
+  margin-top: 0;
+  font-family: "Dekko", cursive;
+}
+
+
+.logo-container {
+  display: inline-flex;
+  position:absolute;
+  flex-direction: column;
+  justify-content: flex-start ;
+  align-items: center;
+  bottom: 0 
+}
+
+.skills-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

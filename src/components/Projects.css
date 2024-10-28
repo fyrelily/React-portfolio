@@ -41,26 +41,6 @@
     font-size: 1.25vw;
 }
 
-.logo{
-    height: 5vw;
-    object-fit: contain;
-
-}
-
-.logo-name{
-    margin-top: 0;
-    font-family: "Dekko", cursive;
-}
-
-
-.logo-container {
-    display: inline-flex;
-    position:absolute;
-    flex-direction: column;
-    justify-content: flex-start ;
-    align-items: center;
-    bottom: 0 
-}
 
 .postgres-logo{
     left:25%;

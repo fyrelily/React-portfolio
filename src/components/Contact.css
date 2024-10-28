@@ -1,0 +1,28 @@
+.contact-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+
+  .contact-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+  }
+
+.contact-decor{
+        position: absolute;
+        border-radius: 60px;
+        top:18%;
+        left:10vw;
+        background-color: cornsilk;
+        width:73.5%;
+        height:33%;
+        /* min-width: 905px;
+        max-width: 1215px;
+        min-height:375px;
+        max-height: 500px; */
+        z-index: -1;
+}

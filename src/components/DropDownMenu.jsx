@@ -10,7 +10,7 @@ function DropDownMenu(props) {
                 <a href="#home">Home</a>
                 <a href="#projects">Projects</a>
                 <a href="#about">About</a>
-                <a href="#">Contact</a>
+                <a href="#toolkit">My Toolkit</a>
     </animated.div>
   )
 }
